@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'guides.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(MaterialApp(
+    home: ComLayou(),
+  ));
 }
